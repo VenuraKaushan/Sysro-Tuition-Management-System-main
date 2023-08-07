@@ -44,7 +44,8 @@ import { ClassPDF } from "../PDFRender/ClassPDFTemplate";
 import { openConfirmModal } from "@mantine/modals";
 import StudentAPI from "../../API/studentAPI";
 import TeacherAPI from "../../API/teacherAPI";
-import subjectAPI from "../../API/subjectAPI";
+// import subjectAPI from "../../API/subjectAPI";
+import subjectAPI from "../../API/SubjectAPI"
 
 const useStyles = createStyles((theme) => ({
   th: {
